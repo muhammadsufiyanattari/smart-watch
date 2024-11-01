@@ -1,0 +1,630 @@
+@import url(media.css);
+
+@font-face {
+    font-family: sk;
+    src: url(Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+body {
+    background-color: rgb(177, 166, 166);
+    
+}
+
+/* navbar */
+.my-nav {
+    background-color: rgb(101, 98, 98 ) !important;
+    border-radius: 0px;
+
+}
+
+.nav-img {
+    font-family: sk;
+    margin-left: 10px;
+}
+.nav-tool>li>a{
+    background-color: black !important;
+    color: white !important ;
+   font-family: sk !important;
+   border-radius: 20px;
+   margin: 0px 5px;
+}
+.nav-tool>li>a:hover{background-color: gray !important;
+
+}
+.search-nav{
+   
+    background-color: gray;
+    color: white !important;
+    border: 5px solid black !important;
+    border-radius:20px ;
+    color: black;
+
+    margin-right: 5px;
+    font-family: sk;
+    padding-left: 10px;
+}
+
+.search-nav::placeholder{font-size: 20px;
+    color: white !important;
+}
+.search-nav:focus{
+     background-color:  rgb(177, 166, 166);
+     border: none;
+       font-family: 'Times New Roman', Times, serif;
+       box-shadow: rgb(59, 57, 57);
+}
+
+.nav-btn {width: 50%;
+    text-align: center;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: sk;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    background-color: rgb(177, 166, 166);
+    color: black;
+}
+
+/* compelte nav */
+
+
+
+/* container-imghome1 */
+.imghome-main{ background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.imghome-img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.imghome-text {color: white;
+    /* margin-top: 100px; */
+}
+
+.imghome-text>h1 {
+    text-shadow: -1px -4px 6px rgba(0,0,0,0.6);
+    text-wrap: balance;
+    text-transform: capitalize;
+    font-family: sk;
+    
+    font-size: 60px;
+}
+
+.imghome-text>h1>span {
+    color: white;
+}
+
+.imghome-text>p {
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+
+.imghome-text>button {
+    background-color: black;
+    color: white;
+    font-family: sk;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+
+}
+
+.imghome-text>button:hover {
+    background-color: transparent;
+    color: black;
+}
+/* complete image-home */
+
+/* threegif */
+
+.threegif{
+    margin-top: 50px;
+
+}
+.threegif>img{
+    border-radius: 0px;
+}
+/* complete-threegif */
+
+/* headings*/
+.headings-main{
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.headings-col>.headings-text{
+    text-align: center;
+
+}
+
+.headings-col>.headings-text>.headings-textimg >img{
+    border: 1px solid black;
+    background: rgb(22,23,24);
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%);
+   border-radius: 35px;
+  
+}
+.headings-col>.headings-text>.headings-textimg >p{
+
+    font-family: sk;
+    font-size: 20px;
+    
+}
+.headings-col>.headings-text>h2{
+    text-transform: capitalize;
+    font-family: sk;
+    color: rgb(90, 86, 86);
+    font-size: 50px;
+    text-shadow: -1px -4px 6px rgba(0,0,0,0.6);
+}
+.headings-col>.headings-text>p{
+    font-size: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+/* <!-- complete-headings --> */
+
+
+/* feature */
+
+.features-main{
+    border: 1px solid black;
+    background-color: rgb(72, 69, 69);
+    margin-top: 50px;
+    border-radius: 100px 0px 100px 0px;
+    border: none;
+    padding-top: 5px;
+  
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 99%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backg
+}
+.features-main-col{
+    margin-top: 50px;
+}
+.icon-p-col-one>.icon>span{
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.icon-p-col-one>.icon>span:hover{
+    font-size: 30px;
+    border: 1px solid gray;
+    border-radius: 35px;
+    padding: 10px;
+    color: white;
+}
+.icon-p-col-two>p{
+    line-height: 2rem;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.features-main-col-two>.features-main-col-two-img{
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+.features-main-col-two>.features-main-col-two-img>div>a{
+   
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+   
+   
+
+}
+.features-main-col-two>.features-main-col-two-img>div> a:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color:  rgb(177, 166, 166);
+    color: white;
+    border-radius: 40px;
+    
+   
+
+}
+.features-main-col-two>.features-main-col-two-img>img{
+
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+/* complete-feature */
+
+
+/* card */
+
+.card-main{
+    margin-top: 50px;
+}
+
+.card{display: flex;
+    flex-wrap: wrap;
+   
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    background-color:  transparent;
+}
+.card-img>img{
+    width: 100%;
+background-color:  black;
+    border-radius:20px 20px 0px 0px;
+}
+.card-text{width:100%;
+    text-align: center;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    border-radius: 0px 0px 20px 20px;
+}
+.card-text:hover{
+   background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%); 
+    color: white;
+}
+.card-text>p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+    font-family: sk;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+}
+.card-text>span{
+   text-align: center;
+  font-size: 15px;
+  text-align: center !important;
+/* font-style: italic; */
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 2px;
+}.card-text>.card-link{
+    margin: 10px;
+}
+
+.card-text>i{
+    font-style: normal;
+    text-align: left !important;
+    background-color: rgb(232, 6, 6);
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.card-text>i:hover{
+    font-style: normal;
+    text-align: left !important;
+    background-color: rgb(232, 6, 6);
+ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card-text>.card-link>a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 2px 0px;
+    border-radius: 40px;
+  
+
+}
+.card-text>.card-link>a:hover{
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+  
+
+}
+
+
+.animate__animated .animate__bounce{
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate__animated.animate__bounce:hover {
+    --animate-duration: 0s;
+    --animate-delay: 0.9s;
+  }
+  /* complete-card */
+/* card-two */
+.img-card2>img{
+    width: 100% !important;
+  }
+  .card-text2{background-color: black;
+    width: 100% !important;
+    color: white;
+  }
+  .card-text2:hover{
+    color: white;
+    background-color: rgb(85, 79, 79);
+  }
+  /* crard-two-complete */
+
+
+
+  /* rain-img */
+ .rain-img-main{
+    background-image: url(img/rain.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+ }
+ .rain-img-text{text-align: left;
+    padding: 200px 0px;
+    color: white;
+ }
+ .rain-img-text>h1{
+    font-family: sk;
+    font-size: 100px;
+ }
+ .rain-img-text>p{
+    color: darkgray;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+ }
+ .rain-img-text>span{
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 20px;
+background-color: rgb(212, 147, 26);  
+ }
+ .rain-img-text>span>s{
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+  
+    
+ }
+ .rain-img-text>div{
+    width: 50%;
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+ }
+
+ .rain-img-text>.anker{
+    margin-top: 20px;
+ }
+ .rain-img-text>.anker>a{
+    text-decoration: none;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+    border-radius: 20px;
+ }
+ .rain-img-text>.anker>a:hover{
+   color: gray;
+ }
+
+ 
+  /*complete- rain-img */
+
+  
+
+
+
+  /* footer */
+  .footer-main{margin-top: 50px;
+    background-color: black;
+    border-radius: 20px ;
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%);
+  
+  }
+  .text-footer{margin-top: 20px;
+    text-align: center;
+  }
+  
+  .text-footer>.footer-logo>img{
+    width: 10%;
+    background-color: gray;
+    border-radius: 35px;
+    padding: 5px;
+
+  }
+  .contact-img>img{
+    width: 100%;
+  }
+  .text-footer>p{
+    font-size: 20px;
+    color: white;
+
+    font-weight: bold;
+  }
+  .display>ul>li{text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 5px 0px;
+    list-style: none;
+  }
+  .display>ul>li>span:hover{
+    color: gray;
+    font-size: 30px;
+  }
+  .Go{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center !important;
+    font-weight: bold;
+  }
+  .Go:hover{
+    color: gray;
+  }
+  .social-icon>h3{
+    font-family: sk;
+    color: black;
+  }
+  .social-icon>a>i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 35px;
+  }
+  .social-icon>a>i:hover{
+    color: gray;
+    font-size: 50px;
+
+  }
+/* comlete-footer */
+
+
+  /* <!-- about-home --> */
+  .about-home-main{
+    margin-top: 50px;
+    background: rgb(22,23,24);
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%);
+    color: white;
+    margin-bottom: 50px;
+  }
+  .about-home-text{
+    margin-top: 50px;
+  }
+  .about-home-text>h1{
+    font-family: sk;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: -1px -4px 6px rgba(0,0,0,0.6);
+  }
+  .about-home-text>h5{
+    text-align: center;
+    font-size: 25px;
+    /* font-family: sk; */
+    font-style: italic;
+    
+    color: white;
+    text-shadow: -1px -4px 6px rgba(0,0,0,0.6);
+  }
+  .about-home-text>p{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    color:black ;
+  }
+
+/* complete- about-home */
+
+/* slider */
+.my-slide{
+    margin-top: 50px;
+}
+/* complete-slider */
+
+
+/* <!-- Button trigger modal --> */
+
+
+.modal-header{  background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%) !important;
+
+}
+.modal-header>h1{
+    color: white !important;
+  font-size: 30px !important;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: -1px -4px 6px rgba(0,0,0,0.6);
+  
+}
+.md-body{
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%);
+}
+table{   font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    font-style: italic;
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%);
+
+}
+
+table>.md-form>tr>.md-input>td{
+    padding: 10px !important;
+}
+
+table>.md-form>tr>.md-input>.td-lable>label{
+ 
+}
+table>.md-form>tr>.md-input>.td-input>input{
+    background-color: white !important;
+  
+ 
+}
+
+
+.md-main-btn{
+    text-decoration: none;
+  background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 10px 0px;
+    border: none;
+}
+.md-main-btn:hover{
+      background-color: rgb(87, 87, 87);
+}
+
+.Payment-main{
+    background: radial-gradient(circle, rgba(22,23,24,1) 4%, rgba(156,150,151,1) 93%) !important;
+}
+
+.Payment,.Close{   text-decoration: none;
+    background-color: black;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+      font-style: italic;
+      padding: 10px;
+      border-radius: 40px;
+      border: none;
+
+}
+.Payment:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+/* <!--complete-Button trigger modal --> */
